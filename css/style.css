@@ -1,0 +1,27 @@
+#navbar{
+ height: 100px;
+ background-color: green;
+}
+
+#main{
+ height: 100px;
+ background-color: red;
+}
+
+#footer{
+ height: 100px;
+ background-color: black;
+}
+
+/*(media query) quando a tela chegar a um tamanho 'x' o html um novo comando*/
+@media screen and (max-width: 1000px){
+	#navbar{
+		background-color: pink;
+	}
+	#main{
+		background-color: blue;
+	}
+	#footer{
+		background-color: grey;
+	}
+}
